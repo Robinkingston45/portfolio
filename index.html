@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Marvelous Portfolio</title>
+</head>
+<body>
+
+    <!-- Header Section with Profile Photo -->
+    <header>
+        <img src="new.jpg" alt="Your Profile Photo">
+        <h1>Robin Sasi Kumar V</h1>
+        <p>Game Developer</p>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Your projects go here -->
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>My First project name is koku's Adventure.Its a game.I made the full game using unreal engine 4 using blueprint coding language
+                i've developed this project last december.Currently developing a new game
+            </p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>My new ongoing project is a android freeroam game.Currently in Development</p>
+        </div>
+        <!-- Add more projects if you got 'em -->
+    </section>
+
+    <!-- Resume Section with Upload Option -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <!-- Your resume content goes here -->
+        <div class="resume-item">
+            <h3>Education</h3>
+            <p>Manonmaniam Sunderanar University - Bachelor's in Computer Science</p>
+        </div>
+        <div class="resume-item">
+            <h3>Experience</h3>
+            <p>3D Blender Animation Designer-Indian Diabetes Centre</p>
+        </div>
+        <!-- Add more resume items as needed -->
+        
+        <!-- Upload Resume Button -->
+    
+        <div class="view-resume">
+            <button onclick="viewResume()">View Resume</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Hit me up at: robinkingston45@gmail.com</p>
+        <p>Phone no:9159604718</p>
+       <p>Instagram:<a href="https://www.instagram.com/gamedev_raccon/">Click Here To Visit My Page</a></p>
+        
+        <!-- Add more ways to contact you if you're feeling social -->
+    </section>
+    <script>
+        function viewResume() {
+            // Replace 'your_resume.pdf' with the actual file name or path
+            window.open('resume.pdf', '_blank');
+        }
+    </script>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2023 NullScape Rights. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
